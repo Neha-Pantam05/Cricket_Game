@@ -1,0 +1,20 @@
+body {
+  text-align: center;
+}
+.image{
+    height: 100px;
+    width: 100px;
+}
+.clear-btn{
+    height: 50px;
+    width: 80px;
+    font-size: large;
+}
+.btn{
+    margin: 10px;
+    background: rgb(211, 237, 199);
+    border-radius: 15%;
+    border: none;
+}
+
+

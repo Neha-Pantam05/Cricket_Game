@@ -9,11 +9,14 @@ body {
     height: 50px;
     width: 80px;
     font-size: large;
+    background-color: rgb(242, 241, 241);
+    border: 2px solid rgb(242, 241, 241);
+    border-radius: 40px;
 }
 .btn{
     margin: 10px;
     background: rgb(211, 237, 199);
-    border-radius: 15%;
+    border-radius: 30px;
     border: none;
 }
 

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bat Ball Stump Game</title>
-    <link rel="stylesheet" href="style.css">~
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Bat Ball Stump Game</h1>
@@ -107,7 +107,7 @@
         function showResult(userMove, computerMove, result) {
             localStorage.setItem('score', JSON.stringify(score));
 
-            document.querySelector('#user-move').innerText = userMove ? `you have chosen ${userMove}` : '';
+            document.querySelector('#user-move').innerText = userMove ? `You have chosen ${userMove}` : '';
 
             document.querySelector('#computer-move').innerText = computerMove ? `Computer choice is ${computerMove}` : ' ';
 
